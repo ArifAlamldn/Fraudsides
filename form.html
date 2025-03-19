@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="form-title">Enter Your Details</h1>
+
+    <form id="fake-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="card">ATM Card Number:</label>
+        <input type="text" id="card" required>
+
+        <label for="pin">PIN:</label>
+        <input type="password" id="pin" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="warning-message" style="display: none; color: red;">
+        ❌ Don't share your personal details online! This is just an awareness test.
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
